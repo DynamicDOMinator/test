@@ -1,0 +1,51 @@
+.swiper-button-next,
+.swiper-button-prev {
+  position: relative;
+  margin-top: 20px;
+  background-color: #fff;
+  color: white;
+  padding: 20px;
+  background: rgb(45, 45, 45);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.swiper-button-next {
+  right: 0px;
+  margin: 0px;
+}
+.swiper-button-prev {
+  left: 0px;
+  margin: 0px;
+}
+
+ .swiper-button-next::after,
+ .swiper-button-prev::after {
+  font-size: 20px !important;
+
+}
+.swiper-pagination {
+  position: relative !important;
+
+  bottom: 0px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mySwiper2 .swiper-pagination-bullet {
+  width: 20px !important; /* Custom width */
+  height: 4px !important; /* Custom height */
+  border-radius: 0 !important; /* Flat bullets */
+  background: #cccccc !important; /* Default bullet color */
+  opacity: 1 !important; /* Ensure full opacity */
+  transition: background 0.3s ease; /* Smooth transition */
+}
+
+.mySwiper2 .swiper-pagination-bullet-active {
+  background: #1A64FF !important; /* Active bullet color */
+  opacity: 1 !important; /* Ensure full opacity */
+}
+
+/* Optionally, add hover styles */
+.mySwiper2 .swiper-pagination-bullet:hover {
+  background: #888 !important; /* Change color on hover */
+}
